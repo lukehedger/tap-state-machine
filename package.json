@@ -1,0 +1,25 @@
+{
+  "name": "tap-state-machine",
+  "description": "🚰 State machine for a tap",
+  "private": true,
+  "scripts": {
+    "microstates": "node prototype/microstates.js",
+    "nanostate": "node prototype/nanostate.js",
+    "xstate": "node prototype/xstate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukehedger/tap-state-machine.git"
+  },
+  "author": "Luke Hedger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukehedger/tap-state-machine/issues"
+  },
+  "homepage": "https://github.com/lukehedger/tap-state-machine#readme",
+  "dependencies": {
+    "microstates": "^0.12.3",
+    "nanostate": "^1.2.1",
+    "xstate": "^4.2.1"
+  }
+}
